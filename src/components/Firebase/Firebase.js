@@ -1,13 +1,13 @@
 import firebase from 'firebase';
 
 const firebaseApp = firebase.initializeApp({
-    apiKey: "AIzaSyDv_2BUDoMlppy6WDd9V_hf1Du05_CHDlc",
-    authDomain: "react-messenger-1be88.firebaseapp.com",
-    databaseURL: "https://react-messenger-1be88.firebaseio.com",
-    projectId: "react-messenger-1be88",
-    storageBucket: "react-messenger-1be88.appspot.com",
-    messagingSenderId: "641039756269",
-    appId: "1:641039756269:web:f908f9fcaac839394855e4"
+    apiKey: "YOUR_API_KEY",
+    AuthDomain: "YOUR_PROJECT_AUTH_DOMAIN",
+    databaseURL: "YOUR_PROJECT_DATABASE_URL",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_PROJECT_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_PROJECT_MESSAGING_SENDER_ID",
+    appId: "YOUR_PROJECT_APP_ID"
 });
 
 const db = firebaseApp.firestore();
