@@ -1,32 +1,16 @@
-Facebook Messenger clone app built with React and Firebase, based on Clever Programmer video tutorial.
+Pokedex app built with React.
 
 ## Demo
 
-https://agovah.github.io/react-messenger-demo/
+https://agovah.github.io/react-pokedex-demo/
 
 ## Usage
 
 ```
-$ git clone https://github.com/agovah/React-Messenger.git
-$ cd React-Messenger-master
+$ git clone https://github.com/agovah/React-Pokedex.git
+$ cd React-Pokedex-master
 $ npm install
 $ npm start
-```
-
-## API key
-
-1. Get your Firebase credentials @ https://firebase.google.com/
-2. Copy / paste your Firebase config to *Firebase.js* file :
-```
-const firebaseApp = firebase.initializeApp({
-  apiKey: "YOUR_API_KEY",
-  AuthDomain: "YOUR_PROJECT_AUTH_DOMAIN",
-  databaseURL: "YOUR_PROJECT_DATABASE_URL",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_PROJECT_MESSAGING_SENDER_ID",
-  appId: "YOUR_PROJECT_APP_ID"
-});
 ```
 
 ## Available Scripts
